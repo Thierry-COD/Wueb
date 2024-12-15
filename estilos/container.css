@@ -1,0 +1,26 @@
+
+.container {
+margin: 50px 0px;
+display: flex;
+flex-wrap: wrap; /* Permite que los elementos se ajusten en una nueva fila */
+border: solid black;
+width: 100%;
+justify-content: space-around;
+box-sizing: border-box;
+}
+
+.vpes {
+    flex: 1 1 200px;
+    border: solid gray 1px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    width: 200px;
+
+}
+
+.vpes img {
+    max-width: 100%;
+    height: auto;
+}

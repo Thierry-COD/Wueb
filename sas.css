@@ -1,0 +1,96 @@
+.diseñoBoton{
+    border: 0px;
+    width: auto;
+    height: 30px;
+    background-color: rgb(75, 75, 114);
+    color: rgb(255, 220, 168);
+    border-radius: 8px;
+
+}
+
+#barra {
+    background-color: rgb(186, 189, 194);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.border {
+    margin-left: 35px;
+}
+
+.barr {
+    display: inline-block;
+    margin: 0 10px;
+    white-space: nowrap;
+    text-align: right;
+    flex: 1;
+    border: solid gray 1px;
+    padding: 5px;
+    border: solid 0px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Media queries para ajustar el diseño en diferentes tamaños de pantalla */
+@media (max-width: 768px) {
+    .vpes {
+        flex: 1 1 45%; /* Ajusta el ancho a 45% para pantallas medianas */
+    }
+
+    #barra {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    .vpes {
+        flex: 1 1 100%; /* Ajusta el ancho a 100% para pantallas pequeñas */
+    }
+
+    #barra {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .barr {
+        width: 100%; /* Asegura que cada elemento de la barra ocupe el ancho completo en pantallas pequeñas */
+    }
+}
+

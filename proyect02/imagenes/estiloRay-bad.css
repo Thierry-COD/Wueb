@@ -1,0 +1,21 @@
+.cambio:link, .cambio:visited{
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-family: cursive;
+    
+}
+.cambio:hover, .cambio:active{
+    color: rgb(47, 173, 57);
+}
+.lineal{
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-color: rgb(166, 172, 170);
+    text-align: center;
+    margin: 30px auto;
+}
